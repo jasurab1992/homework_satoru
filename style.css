@@ -1,0 +1,1306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 5px 0px;
+    background: wheat;
+}
+.container{
+    margin: auto;
+    width: 330px;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.small_container{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+.darkv{
+    background: #674EA7;
+}
+
+
+
+
+
+
+.lightv{
+    background: #B4A7D6;
+}
+.black{
+    background: #000;
+}
+.darkg{
+    background: #2B2A2A;
+}
+.lightg{
+    background: #666;
+}
+.darkskin{
+    background: #D79E64;
+}
+.lightskin{
+    background: #f9CB9C;
+}
+.ultrav{
+    background: #966AD3;
+}
+.white{
+    background: #fff;
+}
+.a1{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes mymove {
+    from {background: #674EA7;}
+    to {background: #fff;}
+}
+.a1::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a1::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a2{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a2::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a2::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a3{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a3::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a3::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a4{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a4::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a5{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a5::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a5::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a6{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a6::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a6::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a7{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a7::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a7::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a8{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a8::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a8::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a9{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a9::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a9::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a10{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a10::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a10::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a11{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a11::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a11::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a12{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a12::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a12::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a13{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a13::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a13::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a14{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a14::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a14::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a15{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a15::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a15::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a16{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a16::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a16::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a17{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a17::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a17::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a18{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a18::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a18::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a19{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a19::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a19::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a20{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a20::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a20::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a21{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a21::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a21::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a22{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a22::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.a22::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a23{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a23::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a23::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a24{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a24::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a24::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a25{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a25::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #B4A7D6;
+}
+.a25::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a26{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a26::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a26::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a27{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a27::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a27::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a28{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a28::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a28::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a29{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a29::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a29::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a30{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a30::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a30::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a31{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a31::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a31::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a32{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a32::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a32::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a33{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a33::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a33::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a34{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a34::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a34::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a35{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a35::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a35::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a36{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a36::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #666;
+}
+.a36::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a37{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a37::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a37::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a38{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a38::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a38::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a39{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a39::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a39::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a40{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a40::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a40::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a41{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a41::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a41::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a42{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a42::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a42::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a43{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a43::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a43::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a44{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a44::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a44::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a45{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a45::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a45::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a46{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a46::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a46::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a47{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a47::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a47::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a48{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a48::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a48::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a49{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a49::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a49::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a50{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a50::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a50::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #f9CB9C;
+}
+.a51{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a51::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a51::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a52{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a52::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #674EA7;
+}
+.a52::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a53{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a53::after{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a53::before{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a54{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a54::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a54::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #000;
+}
+.a55{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a55::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a55::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #D79E64;
+}
+.a56{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a56::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a56::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a57{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a57::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+.a57::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a58{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a58::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a58::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+}
+.a59{
+    height: 10px;
+    width: 10px;
+    position: relative;
+}
+.a59::before{
+    position: absolute;
+    right: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #966AD3;
+}
+.a59::after{
+    position: absolute;
+    left: 10px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #2B2A2A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
